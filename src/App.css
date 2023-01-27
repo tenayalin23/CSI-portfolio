@@ -1,38 +1,71 @@
+body {
+  background: aliceblue;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div {
+  font-family: 'Jost', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
-.App-link {
-  color: #61dafb;
+.left-column {
+  flex-grow: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link {
+  margin-right: 24px;
+}
+
+.reflection-link {
+  border: 1px solid black;
+  border-radius: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.content {
+  margin-left: 172px;
+  margin-right: 172px;
+  margin-top: 88px;
+}
+
+.author-name {
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.active {
+  color: rgb(133, 165, 235);
+  font-weight: bold;
+}
+
+.app {
+  width: 1100px;
+  margin: auto;
+}
+
+.Personas {
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgb(133, 165, 235);
+  padding: 30px;
+  text-align: center;
 }

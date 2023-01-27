@@ -1,0 +1,44 @@
+.persona-link {
+    padding: 12px;
+}
+
+.persona-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 20px
+}
+
+.persona-name {
+    background-color: rgb(133, 165, 235);
+    margin: auto;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.persona-image {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.persona {
+    justify-content: center;
+}
+
+.persona-home {
+    margin: 24px;
+    background-color: white; 
+    text-align: center;
+    font-size: 20px;
+    padding: 24px;
+}

@@ -1,0 +1,25 @@
+.reflection-title {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(133, 165, 235);
+    padding: 30px;
+    text-align: center;
+}
+
+.reflection-label {
+    margin: auto;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reflection-text {
+    background-color: white;
+    padding: 24px;
+}
+
+img {
+    display: flex;
+    height: auto;
+    width: 100%;
+}

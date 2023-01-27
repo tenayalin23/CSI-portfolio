@@ -1,0 +1,47 @@
+.link {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 12px;
+    margin: auto;
+    display: flex;
+    border: 1px solid black
+}
+
+.title {
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 12px;
+    margin: 24px;
+    display: flex; 
+    font-weight: bold;
+    text-align: left;
+}
+
+.board {
+    padding: 100px;
+    background-color: rgb(133, 165, 235);
+    display: flex;
+}
+
+.board-left {
+    display:flex;
+    flex-direction: column
+}
+
+.board-right {
+    display:flex;
+    flex-direction: column
+}
+
+
+.image {
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    border-radius: 4px;
+}
+

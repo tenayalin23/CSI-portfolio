@@ -1,0 +1,30 @@
+.insight {
+    margin: 24px;
+    background-color: white;
+}
+
+.insight-text {
+    margin: 20px;
+    padding: 24px;
+}
+
+.paragraph {
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.insight-label {
+    padding: 10px;
+    background-color: rgb(133, 165, 235);
+    justify-content: flex-start;
+}
+
+.insight-title {
+    font-weight: bold;
+    font-size: 30px;;
+    background-color: rgb(133, 165, 235);
+    padding: 30px;
+    text-align: center;
+}
+
